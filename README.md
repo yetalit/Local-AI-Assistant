@@ -16,6 +16,7 @@ Following tasks are implemented:
 * PyTorch
 * RealtimeSTT
 * pyttsx3
+* plyer (for reminders)
 
 ### Installing
 
@@ -28,7 +29,7 @@ First, you need to install Ollama: https://ollama.com/download
 Then, Install necessary PyPI packages using:
 
 ```
-pip install RealtimeSTT pyttsx3
+pip install RealtimeSTT pyttsx3 plyer
 ```
 
 To install the gpu version of PyTorch:
