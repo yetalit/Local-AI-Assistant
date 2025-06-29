@@ -119,7 +119,7 @@ def command_cleaner(command):
 def set_date(date_str, clock_str):
     clock = command_cleaner(clock_str)
     try:
-        date_part = datetime.strptime(command_cleaner(date_str), "%Y%B%d")
+        date_part = datetime.strptime(command_cleaner(date_str), "%d%B%Y")
 
         hour = int(clock.split('.')[0])
         minute = int(int(clock.split('.')[1]))
@@ -171,7 +171,7 @@ if __name__ == '__main__':
                         sentence_queue.join()
                         full_date = None
                         if command_cleaner(recorder.text().lower()) == 'yes':
-                            sentence_queue.put('Tell me the year, month and the day?')
+                            sentence_queue.put('Tell me the day, month and the year?')
                             sentence_queue.join()
                             date = recorder.text()
                             sentence_queue.put('Tell me the hour point minute?')
