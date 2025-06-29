@@ -23,9 +23,9 @@ Following tasks are implemented:
 
 First, you need to install Ollama: https://ollama.com/download
 
-#### Pip Packages
+#### PyPI Packages
 
-Then, Install necessary pip packages using:
+Then, Install necessary PyPI packages using:
 
 ```
 pip install RealtimeSTT pyttsx3
