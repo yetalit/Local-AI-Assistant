@@ -68,6 +68,7 @@ Command for taking notes is:
 Take me note
 ```
 
+* Say `cancel` if you changed your mind.
 * Use `yes` and `no` to give positive and negative responses.
 * The format to give the day, month and the year information: `<day> <month name> <year>` for example, 2025-06-29 -> `29 June 2025`
 * The format to give the clock information: `<hour>.<minute>` for example, 1:05 PM -> `13.5`
